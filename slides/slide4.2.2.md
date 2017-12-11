@@ -1,17 +1,18 @@
 #Bad Example
 
 ```gherkins
-Scenario Outline: Eating
+Scenario Outline: Eating and adding
   Given there are <start> cucumbers
-  When I <do> <quantity> cucumbers
+  When I <do> 5 cucumbers
   Then I should have <left> cucumbers
 
   Examples:
-    | start | do    |quantity | left |
-    |  12   | eat   | 5  |  7   |
-    |  20   | throw |5  |  15  |
+    | start | do    | left |
+    |  12   | eat   |  7   |
+    |  20   | add   |  24  |
 ```
 
-Note:
+Note: 
+* zły przykład ze względu na dość niewidoczne rozwiązanie na niższym poziome 
+* spójrzmy na przykład sandbox
 
-	
