@@ -1,18 +1,10 @@
- 
-```JavaScript
-    When(/^I (\w+) 5 cucumbers$/, function (toDo) {
-	switch (toDo) {
-		case "eat":
-			cucumbers -= 5;
-			break;
-		case "add":
-			cucumbers += 5;
-			break;
-		//...
-		//...
-    }
-})
-```
+﻿# Background 
+
+* Allow to define specific set of steps – common for all scenarios
+* You can focus on scenario instead of pre-condition
 
 Note:
-* Uruchom test cucumber pokaż jak się wykonuje
+* Są to warunki wstępne scenariusza które muszą być wykonane przed wykonaniem scenariuszy
+* Zmiana warunków wstępnych nie wpływa na treść scenariusza
+* Warunki wstępne zmieniamy tylko w jedym miejscu
+

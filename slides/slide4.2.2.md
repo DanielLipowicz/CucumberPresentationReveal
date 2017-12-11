@@ -1,18 +1,19 @@
-#Bad Example
+﻿# Arguments in gherkins
+## Flexibility
 
 ```gherkins
-Scenario Outline: Eating and adding
+...
   Given there are <start> cucumbers
-  When I <do> 5 cucumbers
-  Then I should have <left> cucumbers
+...
 
   Examples:
-    | start | do    | left |
-    |  12   | eat   |  7   |
-    |  20   | add   |  24  |
+    | start | ... | ... |
+    |  12   | ... | ... |
+    |  20   | ... | ... |
 ```
 
-Note: 
-* zły przykład ze względu na dość niewidoczne rozwiązanie na niższym poziome 
-* spójrzmy na przykład sandbox
-
+Note:
+* przykład użycia scenario outline i testu data driven
+	* oznacza to ze scenariusz testowy powtórzy sie dwukrotnie z innym zestawem danych
+* Dane w tym przypadku zostały zaciemnione
+	
