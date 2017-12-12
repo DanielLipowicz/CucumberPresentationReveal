@@ -1,6 +1,6 @@
-#Bad Example
+﻿#Bad Example
 
-```gherkins
+```gherkin
 Scenario Outline: Eating and adding
   Given there are <start> cucumbers
   When I <do> 5 cucumbers

@@ -1,6 +1,6 @@
-#Good Example
+﻿#Good Example
 
-```gherkins
+```gherkin
 Scenario Outline: Eating
   Given there are <start> cucumbers
   When I eat <eat> cucumbers

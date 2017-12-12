@@ -10,5 +10,5 @@
 Note: 
 - Najwarzniejsza jest najnowsza wersja
 - pierwsza z lutego 2017
-- druga około z 2015
+- druga około z 2015s
 

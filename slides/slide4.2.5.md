@@ -1,5 +1,5 @@
 ﻿# Background usage
-```gherkins
+```gherkin
 Feature​: Change PIN
 ​ 	
 ​ 	  As soon as the bank issues new cards to customers, they are

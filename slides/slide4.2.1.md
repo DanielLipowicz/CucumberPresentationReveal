@@ -1,6 +1,6 @@
-# Arguments in gherkins
+﻿# Arguments in gherkins
 
-```gherkins
+```gherkin
 ...
   Given there are <start> cucumbers
 ...

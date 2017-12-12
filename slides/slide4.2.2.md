@@ -1,15 +1,16 @@
 ﻿# Arguments in gherkins
 ## Flexibility
 
-```gherkins
-...
+```gherkin
+Scenario Outline: Eating
   Given there are <start> cucumbers
-...
+  When I eat <quantity> cucumbers
+  Then I should have <left> cucumbers
 
   Examples:
-    | start | ... | ... |
-    |  12   | ... | ... |
-    |  20   | ... | ... |
+    | start | quantity  | left |
+    |  12   |     5     |  7   |
+    |  20   |     5     |  15  |
 ```
 
 Note:
