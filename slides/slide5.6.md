@@ -1,6 +1,6 @@
 ﻿#Good Example
 
-```gherkins
+```gherkin
 Scenario​: Check inbox
 ​ 	  Given I have received an email from ​"Sue"​
 ​ 	  When I sign in
